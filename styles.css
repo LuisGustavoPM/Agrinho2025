@@ -1,4 +1,4 @@
-/* Resetando alguns estilos */
+/* Reset de estilo */
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +6,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #F0F0F0;
+    font-family: 'Georgia', serif;
+    background-color: #f8f8f8;
     color: #333;
+    line-height: 1.6;
 }
 
 .container {
@@ -20,15 +20,14 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #80E0A7;
+    background-color: #1d1d1f;
+    color: #fff;
     padding: 20px 0;
-    text-align: center;
 }
 
 header .logo h1 {
-    color: #FFFFFF;
     font-size: 2.5em;
-    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 header nav ul {
@@ -36,100 +35,192 @@ header nav ul {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-top: 10px;
 }
 
 header nav a {
+    color: #fff;
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 1.2em;
-    transition: 0.3s;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 header nav a:hover {
-    color: #F49F1C;
+    color: #f4a300;
 }
 
-/* Seções */
-section {
+/* Seção Home */
+#home {
+    background-color: #2a2a2a;
+    color: #fff;
     padding: 60px 0;
     text-align: center;
 }
 
-section h2 {
-    font-size: 2em;
+#home h2 {
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
-section p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+#home p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
 }
 
-button a {
-    text-decoration: none;
-    background-color: #F49F1C;
+.cta-button {
+    background-color: #f4a300;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 30px;
+    font-size: 1.2em;
     border-radius: 5px;
-    transition: 0.3s;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
-button a:hover {
-    background-color: #E08C1C;
+.cta-button:hover {
+    background-color: #e68a00;
 }
 
-/* Formulário de Contato */
-form {
+/* Seção Sobre */
+#sobre {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 1.3em;
+    line-height: 1.8;
+}
+
+/* Seção Serviços */
+#servicos {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+}
+
+#servicos h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-grid {
     display: grid;
-    gap: 20px;
-    max-width: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.service-item p {
+    font-size: 1.1em;
+}
+
+/* Seção Blog */
+#blog {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.blog-posts {
+    display: flex;
+    gap: 30px;
+}
+
+.post {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.post a {
+    color: #f4a300;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post a:hover {
+    color: #e68a00;
+}
+
+/* Seção Contato */
+#contato {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
     margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #333;
 }
 
 form input, form textarea {
-    padding: 10px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%;
+    font-size: 1em;
 }
 
 form button {
-    padding: 10px;
-    background-color: #80E0A7;
-    color: white;
+    width: 100%;
+    padding: 15px;
+    background-color: #f4a300;
+    color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 1.2em;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 form button:hover {
-    background-color: #6fb58b;
+    background-color: #e68a00;
 }
 
 /* Rodapé */
 footer {
-    background-color: #A4D3E5;
-    padding: 20px 0;
+    background-color: #1d1d1f;
+    color: #fff;
     text-align: center;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    header nav ul {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    section h2 {
-        font-size: 1.8em;
-    }
-
-    section p {
-        font-size: 1em;
-    }
-
-    form {
-        width: 90%;
-    }
+    padding: 20px 0;
 }

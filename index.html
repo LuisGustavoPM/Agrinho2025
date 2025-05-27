@@ -4,62 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ajuda ao Êxodo Rural</title>
+    <title>Instituto de Desenvolvimento Urbano</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Cabeçalho -->
     <header>
-        <div class="logo">
-            <h1>Êxodo Rural: Soluções e Apoio</h1>
+        <div class="container">
+            <div class="logo">
+                <h1>Instituto Urbano</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#apoio">Apoio e Recursos</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- Seção Home -->
     <section id="home">
         <div class="container">
-            <h2>Bem-vindo ao nosso site!</h2>
-            <p>Ajudamos pessoas que estão enfrentando o êxodo rural e querem uma transição mais fácil para a vida urbana.</p>
-            <button><a href="#sobre">Saiba mais</a></button>
+            <div class="intro">
+                <h2>Bem-vindo ao Instituto Urbano</h2>
+                <p>Somos uma organização dedicada a soluções urbanas inovadoras e acessíveis.</p>
+                <a href="#sobre" class="cta-button">Saiba Mais</a>
+            </div>
         </div>
     </section>
 
     <!-- Seção Sobre -->
     <section id="sobre">
         <div class="container">
-            <h2>Sobre o Êxodo Rural</h2>
-            <p>O êxodo rural é o movimento de migração das zonas rurais para as urbanas, muitas vezes motivado por falta de infraestrutura e oportunidades no campo. Nosso objetivo é oferecer recursos para uma transição mais suave e segura para as famílias afetadas.</p>
+            <h2>Sobre o Instituto</h2>
+            <p>O Instituto Urbano foi fundado com o objetivo de promover o desenvolvimento sustentável e a inclusão nas áreas urbanas, buscando soluções criativas e práticas para melhorar a qualidade de vida das populações urbanas.</p>
+            <a href="#servicos" class="cta-button">Nossos Serviços</a>
         </div>
     </section>
 
-    <!-- Seção Apoio -->
-    <section id="apoio">
+    <!-- Seção Serviços -->
+    <section id="servicos">
         <div class="container">
-            <h2>Apoio e Recursos</h2>
-            <ul>
-                <li><a href="#">Apoio Governamental</a></li>
-                <li><a href="#">ONGs Parceiras</a></li>
-                <li><a href="#">Recursos Educacionais</a></li>
-                <li><a href="#">Oportunidades de Emprego</a></li>
-            </ul>
+            <h2>Serviços</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Consultoria Urbana</h3>
+                    <p>Consultoria especializada para melhorar a infraestrutura urbana e otimizar recursos.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Gestão de Projetos</h3>
+                    <p>Gestão eficiente de projetos urbanos para garantir sucesso e eficiência.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Planejamento Sustentável</h3>
+                    <p>Desenvolvimento de soluções sustentáveis para cidades e comunidades.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Seção Blog -->
     <section id="blog">
         <div class="container">
-            <h2>Histórias Inspiradoras</h2>
-            <p>Aqui compartilhamos histórias de sucesso e dicas valiosas de quem já passou por essa transição.</p>
-            <button><a href="#">Ver Blog</a></button>
+            <h2>Últimos Artigos</h2>
+            <div class="blog-posts">
+                <div class="post">
+                    <h3>Como o Planejamento Urbano Sustentável Pode Mudar Sua Cidade</h3>
+                    <p>O planejamento sustentável é a chave para um futuro mais equilibrado e próspero nas cidades...</p>
+                    <a href="#">Leia mais</a>
+                </div>
+                <div class="post">
+                    <h3>Inovações Tecnológicas no Desenvolvimento Urbano</h3>
+                    <p>Explorando as novas tecnologias que estão moldando as cidades do futuro...</p>
+                    <a href="#">Leia mais</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -67,17 +90,17 @@
     <section id="contato">
         <div class="container">
             <h2>Entre em Contato</h2>
-            <form>
-                <label for="nome">Nome:</label>
+            <form action="#" method="post">
+                <label for="nome">Nome</label>
                 <input type="text" id="nome" name="nome" required>
-
-                <label for="email">E-mail:</label>
+                
+                <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
 
-                <button type="submit">Enviar</button>
+                <button type="submit" class="cta-button">Enviar</button>
             </form>
         </div>
     </section>
@@ -85,7 +108,7 @@
     <!-- Rodapé -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Ajuda ao Êxodo Rural. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Instituto Urbano. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
