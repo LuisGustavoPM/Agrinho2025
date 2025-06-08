@@ -20,19 +20,17 @@ body {
 
 /* Cabeçalho */
 header { 
-    justify-content: center;
     display: flex;
-    align-items: center;
-    justify-content: space-between; /* separa em espaços nas laterais */
+    flex-direction: row; /* alinhamento horizontal */
+    justify-content: space-between; /* espaça os elementos entre as extremidades */
+    align-items: center; /* alinha verticalmente no centro */
     background-color: #1d1d1f;
     padding: 10px 20px;
     color: #fff;
     font-family: Arial, sans-serif;
-    align-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
+    width: 100%;
 }
+
 
 header .logo h1 {
     font-size: 2.5em;
