@@ -34,38 +34,6 @@ header {
   font-weight: bold;
 }
 
-/* NAVBAR E MENU */
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  padding: 0;
-  margin: 0;
-}
-
-nav a {
-  color: #000;
-  text-decoration: none;
-  font-size: 1.1em;
-  font-weight: 600;
-  background-color: #f4a300;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-  background-color: #e29300;
-}
-
-/* MENU HAMBÚRGUER */
 .hamburger {
   position: relative;
 }
