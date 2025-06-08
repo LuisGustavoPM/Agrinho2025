@@ -97,6 +97,7 @@ header nav a:hover {
 #sobre p {
     font-size: 1.3em;
     line-height: 1.8;
+    padding: 30px;
 }
 
 /* Seção Serviços */
@@ -217,7 +218,6 @@ form button:hover {
     background-color: #e68a00;
 }
 
-/* Rodapé */
 footer {
     background-color: #1d1d1f;
     color: #fff;
