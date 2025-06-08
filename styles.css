@@ -19,10 +19,19 @@ body {
 }
 
 /* Cabeçalho */
-header {
+header { 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* separa em espaços nas laterais */
     background-color: #1d1d1f;
+    padding: 10px 20px;
     color: #fff;
-    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
 }
 
 header .logo h1 {
