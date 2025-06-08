@@ -1,0 +1,43 @@
+main.planos {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.tabela-planos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.plano {
+  background-color: #fff;
+  border: 2px solid #f4a300;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.plano:hover {
+  transform: scale(1.05);
+}
+
+.plano h3 {
+  color: #f4a300;
+  margin-bottom: 10px;
+}
+
+.plano ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.plano ul li {
+  margin-bottom: 8px;
+}
