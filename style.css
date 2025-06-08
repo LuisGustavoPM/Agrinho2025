@@ -88,7 +88,6 @@ nav a:hover {
 .hamburger .linha-vertical {
   display: none;
   position: absolute;
-  right: 0;
   background-color: #f4a300;
   list-style: none;
   padding: 10px;
