@@ -1,4 +1,3 @@
-/* Reset de estilo */
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +18,6 @@ body {
 }
 
 /* Cabeçalho */
-/* ===== HEADER GERAL ===== */
 header {
   background-color: #1d1d1f; /* fundo escuro */
   color: #fff;
@@ -27,7 +25,7 @@ header {
   font-family: Arial, sans-serif;
 }
 
-/* Container central */
+/* Container */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -122,7 +120,6 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-/* Seção Home */
 #home {
     background-color: #2a2a2a;
     color: #fff;
@@ -172,7 +169,6 @@ header nav a:hover {
     padding: 20px;
 }
 
-/* Seção Serviços */
 #servicos {
     padding: 60px 0;
     background-color: #f8f8f8;
@@ -290,7 +286,6 @@ form button:hover {
     background-color: #e68a00;
 }
 
-/* Rodapé */
 footer {
     background-color: #1d1d1f;
     color: #fff;
